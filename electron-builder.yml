@@ -1,0 +1,11 @@
+appId: com.nytely.gemini
+productName: Gemini
+directories:
+  output: ./dist
+files:
+  - "build/**/*"
+  - "icons/**"
+asar: true
+win:
+  target: [{ target: "nsis", arch: ["x64"] }]
+  icon: "icons/icon.ico"
